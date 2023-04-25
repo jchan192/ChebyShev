@@ -1,7 +1,0 @@
-# run ./SP1D_AdaptiveMultiChebySpectral 1e3 16 2 
-      				       #timesteps PatchSize NumOfPatches
-
-#SP1D_AdaptiveMultiChebySpectral is RK4 with only 1 overlapping point
-#SP1D_AdaptiveMultiChebySpectral_exp is taylor epxansion wit ghost boundary points 
-./SP1D_AdaptiveMultiChebySpectral_exp 1e3 16 2 8 
-				      8 is the number of ghost boundary points on each side
